@@ -119,5 +119,6 @@ h1 {
    -webkit-text-stroke-color: black; */
 }
 p {
-    color: white;
+    font-family: "Uni Sans Heavy" ;
+        color: white;
 }
