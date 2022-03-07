@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'uni_sansheavy_caps';
+    src: url('uni_sans_heavy-webfont.woff2') format('woff2'), url('uni_sans_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #nothing {
    text-align: center;
    color: green;
@@ -119,6 +126,7 @@ h1 {
    -webkit-text-stroke-color: black; */
 }
 p {
-    font-family: "Uni Sans Heavy" ;
-        color: white;
+    font-family: 'uni_sansheavy_caps';
+    color: white;
 }
+
