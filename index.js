@@ -1,7 +1,7 @@
 
 window.onload = choosePic;
 
-var myLogo = ["look/banner/banner0.png"];
+var myLogo = ["look/banner/banner0.png", "look/banner/IDASTouhou_TitleLogo.png"];
 
 function choosePic() {
 
