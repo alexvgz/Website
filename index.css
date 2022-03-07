@@ -1,0 +1,123 @@
+#nothing {
+   text-align: center;
+   color: green;
+}
+
+thead {
+   text-align: center;
+
+}
+
+body {
+    /* background-color: blue; */
+    background-image: url("look/bg/bg.png");
+}
+
+#logo {
+  behavior:url(script.htc);
+}
+
+/*
+ Text related styles here
+*/
+a:link {
+    color: blue 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.imgBox
+{
+    width: 100px;
+    height: 56px; 
+    background-size: contain;
+    /*background-image: url("look/buttons/game1.png"); */
+}
+.imgBox:hover {
+    width: 100px;
+    height: 56px; 
+    /*background-image: url("look/buttons/game2.png");*/
+    }
+#home {
+  background-image: url("look/buttons/home1.png");
+}
+
+#home:hover {
+  background-image: url("look/buttons/home2.png");
+}
+
+ #games {
+  background-image: url("look/buttons/game1.png");
+}
+
+ #games:hover {
+  background-image: url("look/buttons/game2.png");
+}
+
+
+#consoles {
+background-image: url("look/buttons/consoles1.png");
+}
+
+#consoles:hover {
+ background-image: url("look/buttons/consoles2.png");
+}
+
+
+#anime{
+    background-image: url("look/buttons/anime1.png"); 
+}
+
+#anime:hover{
+   background-image: url("look/buttons/anime2.png");
+}
+
+ #cartoons{
+    background-image: url("look/buttons/cartoons1.png"); 
+}
+
+#cartoons:hover {
+  background-image: url("look/buttons/cartoons2.png");
+}
+
+
+#comics{
+    background-image: url("look/buttons/comic1.png"); 
+}
+
+#comics:hover {
+    background-image: url("look/buttons/comic2.png");
+    }
+
+
+#info{
+    background-image: url("look/buttons/info1.png"); 
+}
+
+#info:hover {
+    background-image: url("look/buttons/info2.png");
+    }
+
+
+
+
+h1 {
+   /* font-family: "chaparral pro"; */
+    color: black;
+  /* -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black; */
+}
+p {
+    color: black;
+}
