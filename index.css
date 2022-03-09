@@ -28,7 +28,7 @@ body {
  Text related styles here
 */
 a:link {
-    color: blue 
+    color: blue; 
     background-color: transparent; 
     text-decoration: none;
 }
