@@ -116,8 +116,21 @@ background-image: url("look/buttons/consoles1.png");
     background-image: url("look/buttons/info2.png");
     }
 
+#projects{
+	background-image: url("look/buttons/projects1.png")
+}
 
+#projects:hover {
+	background-image: url("look/buttons/projects2.png")
+}
 
+#collection{
+	background-image: url("look/buttons/collection1.png")
+}
+
+#collection:hover {
+	background-image: url("look/buttons/collection2.png")
+}
 
 h1 {
    /* font-family: "whitneymedium"; */
