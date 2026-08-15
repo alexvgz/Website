@@ -44,18 +44,15 @@ a:active {
     text-decoration: none;
 }
 
-.imgBox
-{
+.imgBox {
     width: 100px;
-    height: 56px; 
+    height: 56px;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     /*background-image: url("look/buttons/game1.png"); */
 }
-.imgBox:hover {
-    width: 100px;
-    height: 56px; 
-    /*background-image: url("look/buttons/game2.png");*/
-    }
+
 #home {
   background-image: url("look/buttons/home1.png");
 }
@@ -117,19 +114,19 @@ background-image: url("look/buttons/consoles1.png");
     }
 
 #projects{
-	background-image: url("look/buttons/projects1.png")
+	background-image: url("look/buttons/projects1.png");
 }
 
 #projects:hover {
-	background-image: url("look/buttons/projects2.png")
+	background-image: url("look/buttons/projects2.png");
 }
 
 #collection{
-	background-image: url("look/buttons/collection1.png")
+	background-image: url("look/buttons/collection1.png");
 }
 
 #collection:hover {
-	background-image: url("look/buttons/collection2.png")
+	background-image: url("look/buttons/collection2.png");
 }
 
 h1 {
