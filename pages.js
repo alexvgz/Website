@@ -1,15 +1,20 @@
+var myLogo = [
+    "look/banner/banner0.png",
+    "look/banner/IDASTouhou3.png",
+    "look/banner/IDASTouhou_TitleLogo.png",
+    "look/banner/TouhouInfinity.png"
+];
 
-window.onload = choosePic;
-
-var myLogo = ["look/banner/banner0.png", "look/banner/IDASTouhou3.png", "look/banner/IDASTouhou_TitleLogo.png", "look/banner/TouhouInfinity.png"];
 
 function choosePic() {
+    var logo = document.getElementById("logoindex");
 
-     var randomNum = Math.floor(Math.random() * myLogo.length);
-     document.getElementById("logoindex").src = myLogo[randomNum];
+    if (!logo) return;
 
- 
- }
+    var randomNum = Math.floor(Math.random() * myLogo.length);
+    logo.src = myLogo[randomNum];
+}
+
 
 const imagesToPreload = [
     "/look/buttons/home2.png",
@@ -23,7 +28,11 @@ const imagesToPreload = [
     "/look/buttons/collection2.png"
 ];
 
+
 imagesToPreload.forEach(src => {
     const img = new Image();
     img.src = src;
 });
+
+
+document.addEventListener("DOMContentLoaded", choosePic);
