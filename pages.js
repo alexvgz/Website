@@ -1,11 +1,12 @@
+
 window.onload = choosePic;
 
-var myLogo = ["../look/banner/banner0.png"];
+var myLogo = ["look/banner/banner0.png", "look/banner/IDASTouhou3.png", "look/banner/IDASTouhou_TitleLogo.png", "look/banner/TouhouInfinity.png"];
 
 function choosePic() {
 
      var randomNum = Math.floor(Math.random() * myLogo.length);
-     document.getElementById("logo").src = myLogo[randomNum];
+     document.getElementById("logoindex").src = myLogo[randomNum];
 
  
  }
